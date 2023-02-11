@@ -1,6 +1,6 @@
 ---
-title: A big thank you for your support
-description: You chose to help today. Thanks!
+title: '[[thank-you-page-title]]'
+description: '[[thank-you-page-description]]'
 #date:
 head:
   - [meta, { rel: canonical, href: https://example.com/page/thank-you/ }]
@@ -9,7 +9,7 @@ article: false
 
 ## A big thank you
 
-You chose to help today. Thanks!
+[[thank-you-message]]
 
 💖💖💖
 

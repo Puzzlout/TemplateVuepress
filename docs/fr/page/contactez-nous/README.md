@@ -1,11 +1,16 @@
 ---
-title: Contactez-nous
-description: Contactez-nous description
+title: '[[contact-page-title-fr]]'
+description: '[[contact-page-description-fr]]'
 #date:
 head:
-  - [meta, { rel: canonical, href: https://example.com/fr/page/contactez-moi/ }]
+  - [
+      meta,
+      { rel: canonical, href: https://example.com/fr/page/contactez-nous/ },
+    ]
 article: false
 ---
+
+[[contact-page-form-fr]]
 
 <!-- </style>
 <iframe class="contact-form"

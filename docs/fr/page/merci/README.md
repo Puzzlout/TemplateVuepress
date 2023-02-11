@@ -1,6 +1,6 @@
 ---
-title: Merci pour votre soutien
-description: Vous avez choisi de nous aider. Merci !
+title: '[[thank-you-page-title-fr]]'
+description: '[[thank-you-page-description-fr]]'
 #date:
 head:
   - [meta, { rel: canonical, href: https://example.com/fr/page/merci/ }]
@@ -9,7 +9,7 @@ article: false
 
 ## Un grand merci
 
-Vous avez choisi de nous aider aujourd'hui. Merci !
+[[thank-you-message-fr]]
 
 💖💖💖
 

@@ -1,6 +1,6 @@
 ---
-title: About
-description: About description
+title: '[[about-page-title]]'
+description: '[[about-page-description]]'
 #date:
 #head:
 #  - [meta, { rel: canonical, href: url }]
@@ -8,4 +8,4 @@ description: About description
 article: false
 ---
 
-TO FILL
+[[about-page-content]]

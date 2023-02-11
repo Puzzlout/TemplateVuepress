@@ -1,11 +1,13 @@
 ---
-title: Contact
-description: Contact description
+title: '[[contact-page-title]]'
+description: '[[contact-page-description]]'
 #date:
 #head:
 #  - [meta, { rel: canonical, href: url }]
 article: false
 ---
+
+"[[contact-page-form]]"
 
 <!-- <iframe class="contact-form"
   src="https://tally.so/embed/3yP7pp?alignLeft=1&hideTitle=1&transparentBackground=1"

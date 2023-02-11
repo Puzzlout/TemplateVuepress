@@ -1,9 +1,9 @@
-const version = '1.0.516';
+const version = '1.0.0';
 
 import { defineUserConfig } from '@vuepress/cli';
 import { viteBundler } from '@vuepress/bundler-vite';
 
-import docsearchPlugin from '@vuepress/plugin-docsearch';
+// import docsearchPlugin from '@vuepress/plugin-docsearch';
 
 import theme from './theme';
 import { enHeadConfig, frHeadConfig } from './configs/head';
@@ -21,7 +21,7 @@ export default defineUserConfig({
     docsearchPlugin({
       appId: 'OEWJGZ6584',
       apiKey: '9da6989deaa25628c61dce09c61710b5',
-      indexName: 'iamjeremie',
+      indexName: '[[docssearch-index]]',
       locales: {
         '/': {
           placeholder: 'Search',

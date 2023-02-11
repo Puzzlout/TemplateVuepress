@@ -1,10 +1,11 @@
 ---
-title: A propos
-description: A propos description
+title: '[[about-page-title-fr]]'
+description: '[[about-page-description-fr]]'
 #date:
-head:
-  - [meta, { rel: canonical, href: https://example.com/fr/page/a-propos/ }]
+#head:
+#  - [meta, { rel: canonical, href: url }]
+
 article: false
 ---
 
-TO FILL
+[[about-page-content-fr]]
