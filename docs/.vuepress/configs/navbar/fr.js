@@ -4,21 +4,21 @@ export const frNavBarConfig = navbar([
   '/fr/',
   '/fr/page/a-propos/',
   {
-    text: 'Menu avec sous liens',
+    text: '[[non-clickable-menu-dropdown-text_fr]]',
     children: [
       {
-        text: 'Sous lien 1',
+        text: '[[sublink-text-1_fr]]',
         link: '/',
       },
       {
-        text: 'Sous lien 2',
+        text: '[[sublink-text-2_fr]]',
         link: '/',
       },
       {
-        text: 'Sous lien 3',
+        text: '[[sublink-text-3_fr]]',
         link: '/',
       },
     ],
   },
-  { text: 'Contact', link: '/fr/page/contactez-nous/' },
+  { text: '[[contact-page-link-text_fr]]', link: '/fr/page/contactez-nous/' },
 ]);

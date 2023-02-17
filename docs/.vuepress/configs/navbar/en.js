@@ -4,21 +4,21 @@ export const enNavBarConfig = navbar([
   '/',
   '/page/about/',
   {
-    text: 'Menu with sublinks',
+    text: '[[non-clickable-menu-dropdown-text]]',
     children: [
       {
-        text: 'Sublink 1',
+        text: '[[sublink-text-1]]',
         link: '/',
       },
       {
-        text: 'Sublink 2',
+        text: '[[sublink-text-2]]',
         link: '/',
       },
       {
-        text: 'Sublink 3',
+        text: '[[sublink-text-3]]',
         link: '/',
       },
     ],
   },
-  { text: 'Contact', link: '/page/contact-me/' },
+  { text: '[[contact-page-link-text]]', link: '/page/contact-us/' },
 ]);

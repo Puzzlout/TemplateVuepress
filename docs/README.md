@@ -5,15 +5,15 @@ heroFullScreen: true
 title: '[[home-page-title]]'
 heroText: '[[heroText]]'
 description: '[[home-page-description]]'
-heroImage: /images/default.jpg
+heroImage: /icons/android-chrome-512x512.png
 tagline: '[[tag-line]]'
-#head:
-#  - [meta, { rel: canonical, href: https://example.com/ }]
+head:
+  - [meta, { rel: canonical, href: https://example.com/ }]
 actions:
-  - text: '[[some-action-1]]'
+  - text: '[[secondary-some-action-1]]'
     link: '#'
     type: secondary
-  - text: '[[some-action-2]]'
+  - text: '[[primary-some-action-2]]'
     link: '#'
     type: primary
 features:
