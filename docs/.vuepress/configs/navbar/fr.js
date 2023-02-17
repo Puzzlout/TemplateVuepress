@@ -2,7 +2,7 @@ import { navbar } from 'vuepress-theme-hope';
 
 export const frNavBarConfig = navbar([
   '/fr/',
-  '/fr/page/a-propos/'
+  '/fr/page/a-propos/',
   {
     text: 'Menu avec sous liens',
     children: [

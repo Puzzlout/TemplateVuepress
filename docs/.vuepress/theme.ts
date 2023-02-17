@@ -74,7 +74,7 @@ export default hopeTheme({
     },
     pwa: {
       cacheHTML: true,
-      //caching pictures is quite heavy...
+      //caching pictures is too heavy...
       //cachePic: true
     },
   },

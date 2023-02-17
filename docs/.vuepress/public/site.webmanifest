@@ -1,7 +1,7 @@
 {
-    "name": "Journal of Jeremie Litzler",
-    "short_name": "Blog of Jeremiel",
-    "description": "Journal of notes and experiences of Jérémie Litzler (available offline after installation)",
+    "name": "Demo of static Vuepress website",
+    "short_name": "Templ. Vuepress website",
+    "description": "A template Vuepress blog using Mr Hope very feature-rich theme",
     "icons": [{
         "src": "/icons/android-chrome-192x192.png",
         "sizes": "192x192",
@@ -15,6 +15,6 @@
     }],
     "start_url": "https://example.com/",
     "display": "fullscreen",
-    "theme_color": "#18a558",
-    "background_color": "#18a558"
+    "theme_color": "#46b282",
+    "background_color": "#46b282"
 }

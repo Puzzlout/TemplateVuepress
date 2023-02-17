@@ -1,24 +1,41 @@
-const titleFr = '[[website title fr]]';
-const descriptionFr = '[[website description fr]].';
+const localeShort = 'fr';
+const localeFull = 'fr-FR';
+const websiteDomain = 'template-vuepress-next.netlify.app';
+const titleDefault = 'Modèle de site web statique Vuepress';
+const descriptionDefault =
+  "Un modèle de site web et blog statique utilisant Vuepress et le magnifique thème de Mr Hope avec tout ce qu'il vous faut";
+const themeColor = '#46b282';
+const repoLink = 'https://github.com/Puzzlout/TemplateVuepress';
+
 export const frHeadConfig = {
-  lang: 'fr-FR',
-  title: titleFr,
-  description: descriptionFr,
+  lang: localeFull,
+  title: titleDefault,
+  description: descriptionDefault,
+  repo: repoLink,
+  //https://v2.vuepress.vuejs.org/reference/config.html#head
   head: [
-    ['meta', { property: 'og:title', content: titleFr }],
-    ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:url', content: 'https://example.com/' }],
+    ['meta', { property: 'og:title', content: titleDefault }],
+    [
+      'meta',
+      {
+        property: 'og:url',
+        content: `https://${websiteDomain}/${localeShort}/`,
+      },
+    ],
     [
       'meta',
       {
         property: 'og:description',
-        content: descriptionFr,
+        content: descriptionDefault,
       },
     ],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:image', content: 'image.png' }],
-    ['meta', { name: 'msapplication-TileColor', content: '[[theme-color]]' }],
-    ['meta', { name: 'theme-color', content: '[[theme-color]]' }],
+    [
+      'meta',
+      { property: 'og:image', content: '/icons/android-chrome-512x512.png' },
+    ],
+    ['meta', { name: 'msapplication-TileColor', content: themeColor }],
+    ['meta', { name: 'theme-color', content: themeColor }],
     [
       'link',
       {
@@ -33,7 +50,7 @@ export const frHeadConfig = {
       {
         rel: 'icon',
         type: 'image/png',
-        sizes: '32x32',
+        sizes: '16x16',
         href: '/icons/favicon-16x16.png',
       },
     ],
@@ -43,7 +60,7 @@ export const frHeadConfig = {
       {
         rel: 'mask-icon',
         href: '/icons/safari-pinned-tab.svg',
-        color: '[[theme-color]]',
+        color: themeColor,
       },
     ],
     [
@@ -54,6 +71,6 @@ export const frHeadConfig = {
         href: '/icons/apple-touch-icon.png',
       },
     ],
-    ['link', { rel: 'manifest', href: '/site.fr.webmanifest' }],
+    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
   ],
 };

@@ -1,4 +1,4 @@
-const version = '1.0.1';
+const version = '1.0.2';
 
 import { defineUserConfig } from '@vuepress/cli';
 import { viteBundler } from '@vuepress/bundler-vite';
@@ -18,7 +18,7 @@ export default defineUserConfig({
   shouldPrefetch: false,
   bundler: viteBundler(),
   plugins: [
-    docsearchPlugin({
+    /*docsearchPlugin({
       appId: 'OEWJGZ6584',
       apiKey: '9da6989deaa25628c61dce09c61710b5',
       indexName: '[[docssearch-index]]',
@@ -110,6 +110,6 @@ export default defineUserConfig({
           },
         },
       },
-    }),
+    }),*/
   ],
 });
