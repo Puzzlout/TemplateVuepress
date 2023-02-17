@@ -130,6 +130,20 @@ You will need to update the file `docs/.vuepress/styles/palette.scss` with the d
 
 ### `head` element customization
 
-Head to `docs/.vuepress/configs/head` to update each local file. The variables you need to update are found at the top of each file.
+Head to `docs/.vuepress/configs/head/` folder to update each local file. The variables you need to update are found at the top of each file.
 
 Just update them.
+
+### `navbar` element customization
+
+Head to `docs/.vuepress/configs/navbar/` folder to update each local file.
+
+The sample menu show you a few example.
+
+Not setting the `text` property for a link will default back to the page title.
+
+The parent of a dropdown menu is not clickable.
+
+## Want more
+
+Let me know [in the issues on GitHub](https://github.com/Puzzlout/TemplateVuepress/issues) or head to the [theme documentation](https://theme-hope.vuejs.press/). It is well done.
