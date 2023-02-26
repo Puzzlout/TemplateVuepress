@@ -147,3 +147,44 @@ The parent of a dropdown menu is not clickable.
 ## Want more
 
 Let me know [in the issues on GitHub](https://github.com/Puzzlout/TemplateVuepress/issues) or head to the [theme documentation](https://theme-hope.vuejs.press/). It is well done.
+
+## Netlify CMS
+
+### Create a OAuth Application on GitHub
+
+You will a _client ID_ and a _client secret_ before setting up the Netlify site. 
+
+[Go to your `Developer settings`](https://github.com/settings/developers). 
+Under `OAuth Apps`, add a _new OAuth App_ or `Register a new application`, if you have no application registered yet.
+
+You will need to input:
+
+- a application name
+- the application's homepage URL: `https://my-app.netlify.app/`
+- the authorization callbacl URL: set to `https://api.netlify.com/auth/done`
+
+Copy the `Client ID` from the OAuth application settings.
+
+Finally, click `` and copy the value generated. **It won't be given again!**
+
+### Enable the Auth Provider
+
+Make sure you've configured the API credentials for Github from the Access part of your Netlify site dashboard.
+
+You can find it under: `Site settings` > `Access control` > `OAuth`.
+
+Then,
+
+- Install a provider, 
+- Choose `GitHub` since you just created a OAuth application on GitHub.
+- Input the `Client ID` in the `Key` input and `Client secret` in the `Secret` input.
+
+### Test it
+
+Navigate to `https://my-app.netlify.app/admin`.
+
+You will see a `Login with GitHub`. 
+
+Click it and authorize your account.
+
+And you are done!
