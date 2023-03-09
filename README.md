@@ -93,7 +93,7 @@ You will need replace the ones under `docs/.vuepress/public/icons`
 
 Using [this icon generator](https://favicon.io/favicon-generator/), you can generate an icon using a text value.
 
-1. Pick 2 colors: a dark (it doesn't black or brown) and a light one.
+1. Pick 2 colors: a dark (it doesn't black or brown) and a light one. If you don't know, use [this handy web app](https://huemint.com/brand-intersection/).
 2. First set the _Font Color_ to your light color and _Background color_ to your dark color.
 3. Type whatever text you want. \*\*I usually use one or two letters so it fits in the icon.
 4. Select the font you prefer and the font size
