@@ -97,9 +97,18 @@ img {
 
 .blog-info-list .category-wrapper .category-list-wrapper,
 .blog-info-list .tag-wrapper .tag-list-wrapper {
-    max-height: 30em;
+    max-height: 25em;
     overflow-y: scroll;
 }
+
+.no-narbar-center header .navbar-center,
+.no-breadcrumb .breadcrumb,
+.no-toc .toc-place-holder,
+.no-page-info .page-info,
+.no-mobile-menu .toggle-navbar-button .button-container {
+  display: none;
+}
+
 
 iframe.contact-form {
   height: 50em;
