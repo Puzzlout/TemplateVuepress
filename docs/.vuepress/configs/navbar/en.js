@@ -4,7 +4,7 @@ export const enNavBarConfig = navbar([
   '/',
   '/page/about/',
   {
-    text: '[[non-clickable-menu-dropdown-text]]',
+    text: '[[hoverable-dropdown-dropdown-text]]',
     children: [
       {
         text: '[[sublink-text-1]]',

@@ -11,13 +11,14 @@ export default hopeTheme({
     name: 'Jeremie Litzler',
     url: 'https://example.com',
   },
-  repo: 'JeremieLitzler/journal',
-  docsRepo: 'https://github.com/JeremieLitzler/journal',
+  repo: 'GitHubUsername/GitRepoName',
+  docsRepo: 'https://github.com/GitHubUsername/GitRepoName',
   docsBranch: 'main',
   docsDir: 'docs',
   editLinkPattern: ':repo/edit/:branch/:path',
   logo: '/icons/favicon-32x32.png',
   logoDark: '/icons/dark-favicon-32x32.png',
+  darkmode: "enable",
   locales: {
     '/': {
       navbar: enNavBarConfig,
@@ -35,10 +36,10 @@ export default hopeTheme({
     blog: true,
     comment: {
       provider: 'Giscus',
-      repo: 'JeremieLitzler/journal',
-      repoId: 'MDEwOlJlcG9zaXRvcnkzOTQ1MzE2NTg=',
+      repo: 'GitHubUsername/GitRepoName',
+      repoId: '[[Giscus-repo-id]]',
       category: 'Comments',
-      categoryId: 'DIC_kwDOF4QTSs4CTng3',
+      categoryId: '[[Giscus-category-id]]',
       mapping: 'title',
     },
     mdEnhance: {

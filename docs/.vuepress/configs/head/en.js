@@ -1,9 +1,8 @@
 const websiteDomain = 'template-vuepress-next.netlify.app';
-const titleDefault = 'Demo of static Vuepress website';
-const descriptionDefault =
-  'A template Vuepress blog using Mr Hope very feature-rich theme';
+const titleDefault = '[[Website default title EN]]';
+const descriptionDefault = '[[Website default description EN]]';
 const themeColor = '#46b282';
-const repoLink = 'https://github.com/Puzzlout/TemplateVuepress';
+const repoLink = 'https://github.com/GitHubUsername/GitRepoName';
 
 export const enHeadConfig = {
   title: titleDefault,

@@ -4,7 +4,7 @@ export const frNavBarConfig = navbar([
   '/fr/',
   '/fr/page/a-propos/',
   {
-    text: '[[non-clickable-menu-dropdown-text_fr]]',
+    text: '[[hoverable-dropdown-dropdown-text_fr]]',
     children: [
       {
         text: '[[sublink-text-1_fr]]',

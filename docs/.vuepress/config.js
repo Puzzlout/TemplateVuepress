@@ -1,4 +1,4 @@
-const version = '1.0.17';
+const version = '1.0.18';
 
 import { defineUserConfig } from '@vuepress/cli';
 import { viteBundler } from '@vuepress/bundler-vite';
@@ -9,7 +9,7 @@ import theme from './theme';
 import { enHeadConfig, frHeadConfig } from './configs/head';
 
 export default defineUserConfig({
-  lang: 'en-US',
+  lang: 'en-US', //or any other local (ex: "fr-FR")
   locales: {
     '/': enHeadConfig,
     '/fr/': frHeadConfig,
@@ -18,6 +18,7 @@ export default defineUserConfig({
   shouldPrefetch: false,
   bundler: viteBundler(),
   plugins: [
+    //Leave docsearchPlugin disabled.
     /*docsearchPlugin({
       appId: 'OEWJGZ6584',
       apiKey: '9da6989deaa25628c61dce09c61710b5',

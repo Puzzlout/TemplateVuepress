@@ -1,11 +1,10 @@
 const localeShort = 'fr';
 const localeFull = 'fr-FR';
 const websiteDomain = 'template-vuepress-next.netlify.app';
-const titleDefault = 'Modèle de site web statique Vuepress';
-const descriptionDefault =
-  "Un modèle de site web et blog statique utilisant Vuepress et le magnifique thème de Mr Hope avec tout ce qu'il vous faut";
+const titleDefault = '[[Titre par défaut du site web FR]]';
+const descriptionDefault = '[[Description par défaut du site web FR]]';
 const themeColor = '#46b282';
-const repoLink = 'https://github.com/Puzzlout/TemplateVuepress';
+const repoLink = 'https://github.com/GitHubUsername/GitRepoName';
 
 export const frHeadConfig = {
   lang: localeFull,

@@ -1,7 +1,7 @@
 {
-    "name": "Modèle de site web statique Vuepress",
-    "short_name": "Templ. site Vuepress",
-    "description": "Un modèle de site web et blog statique utilisant Vuepress et le magnifique thème de Mr Hope avec tout ce qu'il vous faut",
+    "name": "[[Nom de l'application]]",
+    "short_name": "[[Nom court]]",
+    "description": "[[Description de l'application web]]",
     "icons": [{
         "src": "/icons/android-chrome-192x192.png",
         "sizes": "192x192",
