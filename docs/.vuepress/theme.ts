@@ -18,7 +18,7 @@ export default hopeTheme({
   editLinkPattern: ':repo/edit/:branch/:path',
   logo: '/icons/favicon-32x32.png',
   logoDark: '/icons/dark-favicon-32x32.png',
-  darkmode: "enable",
+  darkmode: 'enable',
   locales: {
     '/': {
       navbar: enNavBarConfig,
@@ -34,14 +34,14 @@ export default hopeTheme({
     'GPLv3 Licensed | <a href="https://example.com/page/terms" title="Read terms and conditions of this website">Terms</a>',
   plugins: {
     blog: true,
-    comment: {
-      provider: 'Giscus',
-      repo: 'GitHubUsername/GitRepoName',
-      repoId: '[[Giscus-repo-id]]',
-      category: 'Comments',
-      categoryId: '[[Giscus-category-id]]',
-      mapping: 'title',
-    },
+    // comment: {
+    //   provider: 'Giscus',
+    //   repo: 'GitHubUsername/GitRepoName',
+    //   repoId: '[[Giscus-repo-id]]',
+    //   category: 'Comments',
+    //   categoryId: '[[Giscus-category-id]]',
+    //   mapping: 'title',
+    // },
     mdEnhance: {
       checkLinks: 'always',
       //See https://vuepress-theme-hope.github.io/v2/guide/markdown/align.html
@@ -53,7 +53,8 @@ export default hopeTheme({
       //See https://vuepress-theme-hope.github.io/v2/guide/markdown/container.html
       container: true,
       //See https://vuepress-theme-hope.github.io/v2/guide/markdown/echarts.html
-      echarts: true,
+      // Install the package echarts if you use this options
+      //echarts: true,
       //See https://vuepress-theme-hope.github.io/v2/guide/markdown/footnote.html
       //See also https://echarts.apache.org/en/index.html
       footnote: true,
