@@ -4,21 +4,21 @@ export const enNavBarConfig = navbar([
   '/',
   '/page/about/',
   {
-    text: '[[hoverable-dropdown-dropdown-text]]',
+    text: 'hoverable-dropdown-dropdown-text',
     children: [
       {
-        text: '[[sublink-text-1]]',
+        text: 'sublink-text-1',
         link: '/',
       },
       {
-        text: '[[sublink-text-2]]',
+        text: 'sublink-text-2',
         link: '/',
       },
       {
-        text: '[[sublink-text-3]]',
+        text: 'sublink-text-3',
         link: '/',
       },
     ],
   },
-  { text: '[[contact-page-link-text]]', link: '/page/contact-us/' },
+  { text: 'contact-page-link-text', link: '/page/contact-us/' },
 ]);
