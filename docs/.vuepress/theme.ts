@@ -33,6 +33,7 @@ export default hopeTheme({
   footer:
     'GPLv3 Licensed | <a href="https://example.com/page/terms" title="Read terms and conditions of this website">Terms</a>',
   plugins: {
+    //use if @vuepress/plugin-blog installed
     blog: true,
     comment: {
       provider: "Giscus",
@@ -43,7 +44,8 @@ export default hopeTheme({
       mapping: "title",
     },
     mdEnhance: {
-      checkLinks: "always",
+      //use if @vuepress/plugin-links-check installed
+      // checkLinks: 'always',
       //See https://vuepress-theme-hope.github.io/v2/guide/markdown/align.html
       align: true,
       //See https://vuepress-theme-hope.github.io/v2/guide/markdown/attrs.html
@@ -74,6 +76,7 @@ export default hopeTheme({
       //See https://vuepress-theme-hope.github.io/v2/guide/markdown/tabs.html
       tabs: true,
     },
+    //use if @vuepress/plugin-pwa installed
     pwa: {
       cacheHTML: true,
       //caching pictures is too heavy...
